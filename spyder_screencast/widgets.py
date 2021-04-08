@@ -1,25 +1,13 @@
 # -*- coding: utf-8 -*-
-# ----------------------------------------------------------------------------
-# Copyright © Tom Hören
-
-# Licensed under the terms of the MIT License
-# ----------------------------------------------------------------------------
-"""
-Python QtScreenCaster Spyder Widgets.
-"""
 
 # Third party imports
 from qtpy.QtWidgets import QVBoxLayout, QWidget
 from spyder.api.translations import get_translation
 from spyder.api.widgets.status import StatusBarWidget
-
-# Local imports
 from QScreenCast import ScreenCastToolButton
 
-
 # Localization
-_ = get_translation('QScreenCast.spyder')
-
+_ = get_translation('spyder_screencast')
 
 # TODO: Change to use the base status widget not yet available
 class ScreenCastStatusWidget(StatusBarWidget):

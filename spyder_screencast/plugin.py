@@ -15,7 +15,7 @@ from spyder.api.translations import get_translation
 from spyder_screencast.container import ScreenCastContainer
 
 # Localization
-_ = get_translation('QScreenCast.spyder')
+_ = get_translation('spyder_screencast')
 
 
 class ScreenCast(SpyderPluginV2):
@@ -61,16 +61,12 @@ class ScreenCast(SpyderPluginV2):
         status_bar.add_status_widget(container.status_widget)
 
     def check_compatibility(self):
-        #TODO: Check if FFMPEG is available and show a meesage
-
-        # Check if Qt, PyQt etc, has the appropriate things needed?
-
         valid = True
         message = ''  # Note: Remeber to use _('') to localize the string
         return valid, message
 
     def on_close(self, cancellable):
-        # Stop the recording and do any cleanup
+        #TODO: Stop the recording and do any cleanup
         return True
 
     # --- API

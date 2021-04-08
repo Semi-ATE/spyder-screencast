@@ -1,12 +1,4 @@
 # -*- coding: utf-8 -*-
-# ----------------------------------------------------------------------------
-# Copyright © Tom Hören
-
-# Licensed under the terms of the MIT License
-# ----------------------------------------------------------------------------
-"""
-Python QtScreenCaster Spyder Widgets.
-"""
 
 # Third party imports
 from qtpy.QtCore import QSize, QPoint, Signal
