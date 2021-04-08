@@ -9,6 +9,8 @@ import os
 from setuptools import find_packages, setup
 from spyder_screencast import __version__
 
+print(f"spyder-screencast version = {__version__}")
+
 here = os.path.dirname(os.path.abspath(__file__))
 
 with open(os.path.join(here, "README.md"), "r", encoding="utf-8") as f:
