@@ -26,6 +26,7 @@ jobs:
         run: mamba install -n test --file requirements/build.txt -c conda-forge -y -q
 
       - name: Tag to version
+        shell: bash -l {0}
         run: |
           echo "__version__='${GITHUB_REF#refs/*/}'" >> spyder_screencast/__init__.py
           echo "__version__='${GITHUB_REF#refs/*/}'"
