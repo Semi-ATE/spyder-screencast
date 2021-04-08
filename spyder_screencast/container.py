@@ -3,7 +3,7 @@
 # Third party imports
 from qtpy.QtCore import QSize, QPoint, Signal
 from spyder.api.translations import get_translation
-from spyder.api.widgets import PluginMainContainer
+from spyder.api.widgets.main_container import PluginMainContainer
 
 # Local imports
 from spyder_screencast.api import ScreenResolutions
