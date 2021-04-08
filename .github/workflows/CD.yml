@@ -30,8 +30,8 @@ jobs:
 
       - name: verify version
         shell: bash -l {0}
-	run: cat README.md
-	  
+        run: cat README.md
+
       - name: Create package
         shell: bash -l {0}
         run: python setup.py sdist 
