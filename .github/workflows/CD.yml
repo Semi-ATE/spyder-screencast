@@ -30,7 +30,7 @@ jobs:
 
       - name: verify version
         shell: bash -l {0}
-	run: cat spyder_screencast/__init__.py
+	run: cat README.md
 	  
       - name: Create package
         shell: bash -l {0}
