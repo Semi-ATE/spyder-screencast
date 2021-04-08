@@ -20,6 +20,10 @@ jobs:
           mamba-version: "*"
           show-channel-urls: true 
 
+      - name: Setup project dependencies
+        run: |
+          mamba install -n test --file requirements/build.txt -c conda-forge -y -q
+
       - name: Create package
         shell: bash -l {0}
         run: python setup.py sdist 
