@@ -22,8 +22,7 @@ jobs:
           mamba-version: "*"
           show-channel-urls: true 
 
-      - name: Setup build dependencies
-        run: mamba install -n test --file requirements/build.txt -c conda-forge -y -q
+	  
 
       - name: Tag to version
         run: echo "__version__='${GITHUB_REF#refs/*/}'" >> spyder_screencast/__init__.py
