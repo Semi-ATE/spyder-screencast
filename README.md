@@ -7,7 +7,6 @@ screencast plugin for spyder 5
 ![Supported Python versions](https://img.shields.io/badge/python-%3E%3D3.7-black)
 
 [![CI](https://github.com/Semi-ATE/spyder-screencast/workflows/CI/badge.svg?branch=master)](https://github.com/Semi-ATE/spyder-screencast/actions?query=workflow%3ACI)
-[![codecov](https://codecov.io/gh/Semi-ATE/spyder-screencast/branch/main/graph/badge.svg?token=BAP0H9OMED)](https://codecov.io/gh/Semi-ATE/spyder-screencast)
 [![CD](https://github.com/Semi-ATE/spyder-screencat/workflows/CD/badge.svg)](https://github.com/Semi-ATE/spyder-screencast/actions?query=workflow%3ACD)
 
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Semi-ATE/spyder-screencast?color=blue&label=GitHub&sort=semver)](https://github.com/Semi-ATE/spyder-screencast/releases/latest)
