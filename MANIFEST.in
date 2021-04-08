@@ -1,0 +1,6 @@
+include LICENSE.txt
+recursive-include spyder_screencast *.py
+recursive-exclude spyder_screencast/__pycache__ *.*
+recursive-exclude documentation *.*
+recursive-exclude requirements *.*
+
