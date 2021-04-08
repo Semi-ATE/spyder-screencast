@@ -14,12 +14,12 @@ from spyder.api.translations import get_translation
 from spyder.api.widgets import PluginMainContainer
 
 # Local imports
-from QScreenCast.spyder.api import ScreenResolutions
-from QScreenCast.spyder.widgets import ScreenCastStatusWidget
+from spyder_screencast.api import ScreenResolutions
+from spyder_screencast.widgets import ScreenCastStatusWidget
 
 
 # Localization
-_ = get_translation('QScreenCast.spyder')
+_ = get_translation('spyder_screencast')
 
 
 class ScreenCastContainer(PluginMainContainer):
