@@ -10,6 +10,7 @@ from qtpy.QtCore import QPoint, QSize, Signal
 from qtpy.QtGui import QIcon
 from spyder.api.plugins import SpyderPluginV2, Plugins
 from spyder.api.translations import get_translation
+from spyder.plugins.statusbar.plugin import StatusBarWidgetPosition
 
 # Local imports
 from spyder_screencast.container import ScreenCastContainer
@@ -58,7 +59,8 @@ class ScreenCast(SpyderPluginV2):
         container.sig_move_main_window_requested.connect(
             self.sig_move_main_window_requested)
 
-        status_bar.add_status_widget(container.status_widget)
+        status_bar.add_status_widget(
+            container.status_widget, position=StatusBarWidgetPosition.Right)
 
     def check_compatibility(self):
         valid = True

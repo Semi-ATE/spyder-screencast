@@ -16,7 +16,7 @@ with open(os.path.join(here, "README.md"), "r", encoding="utf-8") as f:
 
 install_requires = [
     'QScreenCast',
-    'spyder>=5',
+    'spyder>=5.0.1',
 ]
 
 setup(
@@ -36,7 +36,7 @@ setup(
         ],
     },
     # See: https://pypi.org/classifiers/
-    classifiers=[  
+    classifiers=[
         'License :: OSI Approved :: MIT License',
         'Operating System :: POSIX :: Linux',
         'Operating System :: MacOS :: MacOS X',
@@ -64,7 +64,7 @@ setup(
         'Topic :: Multimedia :: Video :: Capture',
     ],
     license="MIT",
-    keywords=[  
+    keywords=[
         'screencast',
         'qt',
     ],
