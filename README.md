@@ -14,8 +14,8 @@ screencast plugin for spyder 5
 [![PyPI](https://img.shields.io/pypi/v/spyder-screencast?color=blue&label=PyPI)](https://pypi.org/project/spyder-screencast/)
 [![Conda (channel only)](https://img.shields.io/conda/vn/conda-forge/spyder-screencast?color=blue&label=conda-forge)](https://github.com/conda-forge/spyder-screencast-feedstock)
 
-![PyPI - Downloads](https://img.shields.io/pypi/dm/spyder-screencast?color=green&label=PyPI%20downloads)
-![Conda](https://img.shields.io/conda/dn/conda-forge/spyder-screencast?color=green&label=conda-forge%20downloads)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/spyder-screencast?color=g&label=PyPI%20downloads)
+![Conda](https://img.shields.io/conda/dn/conda-forge/spyder-screencast?color=g&label=conda-forge%20downloads)
 
 [![GitHub issues](https://img.shields.io/github/issues/Semi-ATE/spyder-screencast)](https://github.com/Semi-ATE/spyder-screencast/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Semi-ATE/spyder-screencast)](https://github.com/Semi-ATE/spyder-screencast/pulls)
