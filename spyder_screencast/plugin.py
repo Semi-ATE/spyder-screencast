@@ -9,6 +9,7 @@
 from qtpy.QtCore import QPoint, QSize, Signal
 from qtpy.QtGui import QIcon
 from spyder.api.plugins import SpyderPluginV2, Plugins
+from spyder.api.plugin_registration.decorators import on_plugin_available
 from spyder.api.translations import get_translation
 from spyder.plugins.statusbar.plugin import StatusBarWidgetPosition
 
@@ -40,9 +41,7 @@ class ScreenCast(SpyderPluginV2):
     def get_icon(self):
         return QIcon()
 
-    def register(self):
-        status_bar = self.get_plugin(Plugins.StatusBar)
-
+    def on_initialize(self):
         container = self.get_container()
         container.init_screen_cast_widget(self.get_main())
 
@@ -59,6 +58,10 @@ class ScreenCast(SpyderPluginV2):
         container.sig_move_main_window_requested.connect(
             self.sig_move_main_window_requested)
 
+    @on_plugin_available(plugin=Plugins.WorkingDirectory)
+    def on_statusbar_available(self):
+        status_bar = self.get_plugin(Plugins.StatusBar)
+        container = self.get_container()
         status_bar.add_status_widget(
             container.status_widget, position=StatusBarWidgetPosition.Right)
 
