@@ -58,7 +58,7 @@ class ScreenCast(SpyderPluginV2):
         container.sig_move_main_window_requested.connect(
             self.sig_move_main_window_requested)
 
-    @on_plugin_available(plugin=Plugins.WorkingDirectory)
+    @on_plugin_available(plugin=Plugins.StatusBar)
     def on_statusbar_available(self):
         status_bar = self.get_plugin(Plugins.StatusBar)
         container = self.get_container()
