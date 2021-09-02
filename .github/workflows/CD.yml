@@ -12,18 +12,10 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@v2
 
-      - name: Setup miniconda
-        uses: conda-incubator/setup-miniconda@v2
+      - name: provision-with-micromamba
+        uses: mamba-org/provision-with-micromamba@v10
         with:
-          miniconda-version: "latest" 
-          python-version: "3.9"
-          channel-priority: "strict"
-          channels: "conda-forge"  
-          mamba-version: "*"
-          show-channel-urls: true 
-
-      - name: Setup build dependencies
-        run: mamba install -n test --file requirements/build.txt -c conda-forge -y -q
+          environment-file: requirements/build.yml
 
       - name: Tag to version
         shell: bash -l {0}
