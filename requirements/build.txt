@@ -1,3 +1,7 @@
+# Run
+QScreenCast
+spyder>=5.0.1
+# Build
 mock
 pytest-qt
 pytest==6.1.1
