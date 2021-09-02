@@ -1,1 +1,10 @@
-asdf
+mock
+pytest-qt
+pytest==6.1.1
+pytest-cov
+pytest-mock
+coverage
+check-manifest
+pre-commit
+tqdm
+twine
