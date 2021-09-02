@@ -16,7 +16,7 @@ with open(os.path.join(here, "README.md"), "r", encoding="utf-8") as f:
 
 install_requires = [
     'QScreenCast',
-    'spyder>=5.0.1',
+    'spyder>=5.1.1',
 ]
 
 setup(
@@ -71,5 +71,5 @@ setup(
 #    platforms=["Windows", "Linux", "MacOS"],
     platforms=["Windows"],
     install_requires=install_requires,
-    python_requires='>=3.6',
+    python_requires='>=3.7',
 )
