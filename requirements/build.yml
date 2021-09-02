@@ -1,0 +1,13 @@
+name: test
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - psutil
+  - anaconda-client
+  - conda-build
+  - mamba
+  - openpyxl
+  - pyyaml
+  - requests
+  - pyyaml
