@@ -21,7 +21,7 @@ screencast plugin for spyder 5
 [![GitHub issues](https://img.shields.io/github/issues/Semi-ATE/spyder-screencast)](https://github.com/Semi-ATE/spyder-screencast/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Semi-ATE/spyder-screencast)](https://github.com/Semi-ATE/spyder-screencast/pulls)
 
-`spyder-screencast` is based on [QScreenCast](https://github.com/Semi-ATE/QScreenCast)
+`spyder-screencast` is merely a wrapper around [QScreenCast](https://github.com/Semi-ATE/QScreenCast) to turn it into a plugin for [Spyder](https://www.spyder-ide.org/)
 
 ## Installation
 
