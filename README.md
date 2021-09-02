@@ -1,6 +1,6 @@
 # spyder-screencast
 
-screencast plugin for spyder 5
+`spyder-screencast` is merely a wrapper around [QScreenCast](https://github.com/Semi-ATE/QScreenCast) to turn it into a screencast plugin for [Spyder](https://www.spyder-ide.org/) >= 5.1.1
 
 [![GitHub](https://img.shields.io/github/license/Semi-ATE/spyder-screencast?color=black)](https://github.com/Semi-ATE/spyder-screencast/blob/main/LICENSE)
 [![Conda](https://img.shields.io/conda/pn/conda-forge/spyder-screencast?color=black)](https://anaconda.org/conda-forge/spyder-screencast)
@@ -21,7 +21,6 @@ screencast plugin for spyder 5
 [![GitHub issues](https://img.shields.io/github/issues/Semi-ATE/spyder-screencast)](https://github.com/Semi-ATE/spyder-screencast/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/Semi-ATE/spyder-screencast)](https://github.com/Semi-ATE/spyder-screencast/pulls)
 
-`spyder-screencast` is merely a wrapper around [QScreenCast](https://github.com/Semi-ATE/QScreenCast) to turn it into a plugin for [Spyder](https://www.spyder-ide.org/)
 
 ## Installation
 
