@@ -38,8 +38,6 @@ setup(
     # See: https://pypi.org/classifiers/
     classifiers=[
         'License :: OSI Approved :: MIT License',
-        'Operating System :: POSIX :: Linux',
-        'Operating System :: MacOS :: MacOS X',
         'Operating System :: Microsoft :: Windows :: Windows 10',
         'Natural Language :: English',
         'Programming Language :: Python',
