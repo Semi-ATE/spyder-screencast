@@ -10,13 +10,10 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@v2
 
-    - name: provision-with-micromamba
-      uses: mamba-org/provision-with-micromamba@v10
-#       with:
-#       # the environment.yml file for the conda environment
-#         environment-file: # default is environment.yml
-#       # the name of the conda environment (defaults to name from the environment.yml file)
-#         environment-name: # optional
+      - name: provision-with-micromamba
+        uses: mamba-org/provision-with-micromamba@v10
+        with:
+          environment-file: requirements/build.yml
 
 #       - name: Setup miniconda
 #         uses: conda-incubator/setup-miniconda@v2
