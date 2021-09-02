@@ -31,7 +31,7 @@ screencast plugin for spyder 5
 (myenv) me@mybox:~$ conda install -c conda-forge spyder-screencast 
 ```
 
-**Note:** `spyder-screencast` depends on `spyder 5` and `QScreenCast`, both will be installed with the above command (if not already installed)
+**Note:** `spyder-screencast` depends on `spyder >= 5.1.1` and `QScreenCast`, both will be installed with the above command (if not already installed)
 
 ### pip
 
