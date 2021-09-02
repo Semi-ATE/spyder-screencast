@@ -1,2 +1,0 @@
-QScreenCast
-spyder>=5.0.1
