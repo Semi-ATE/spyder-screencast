@@ -15,19 +15,6 @@ jobs:
         with:
           environment-file: requirements/build.yml
 
-#       - name: Setup miniconda
-#         uses: conda-incubator/setup-miniconda@v2
-#         with:
-#           miniconda-version: "latest" 
-#           python-version: "3.8"
-#           channel-priority: "strict"
-#           channels: "conda-forge"  
-#           mamba-version: "*"
-#           show-channel-urls: true 
-
-#       - name: Setup build dependencies
-#         run: mamba install -n test --file requirements/build.txt -c conda-forge -y -q
-
       - name: Create package
         shell: bash -l {0}
         run: python setup.py sdist 
